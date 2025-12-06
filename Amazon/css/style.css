@@ -1,0 +1,443 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+.navbar {
+  height: 60px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-logo {
+  height: 50px;
+  width: 100px;
+  margin-top: 10px;
+}
+.logo {
+  background-image: url(../images/amazon_logo.png);
+  height: 40px;
+  width: 100%;
+  background-size: cover;
+  background-color: black;
+  background-position: center;
+}
+
+.searchbar {
+  height: 40px;
+  width: 800px;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.flag {
+  background-image: url(../images/nepal.png);
+  height: 30px;
+  width: 30px;
+  background-color: rgb(0, 0, 0);
+  background-position: center;
+  background-size: contain;
+}
+.signin {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.Deliver {
+  height: 40px;
+  width: 100px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.bar {
+  height: 40px;
+  width: 700px;
+  background-color: rgb(14, 43, 43);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.mbar {
+  height: 40px;
+  background-color: black;
+}
+.sbar {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-size-adjust: 10px;
+}
+.sbarl {
+  height: 40px;
+  width: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+.location-icon {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: white;
+}
+.search-icon {
+  height: 40px;
+  width: 50px;
+  background-color: #ffaa33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.sinput {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+  font-size: 1rem;
+}
+.list {
+  width: 50px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: #d3d3d3;
+  text-align: center;
+}
+.bgimg {
+  background-image: url(../images/bg\ img.jpg);
+  height: 700px;
+  width: 1450px;
+  background-size: contain;
+}
+.cart {
+  color: white;
+}
+.box1 {
+  background-size: contain;
+  height: 400px;
+  width: 325px;
+  background-color: white;
+  margin-top: 250px;
+  margin-left: 25px;
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 10px;
+}
+.boxcontainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 1000px;
+  row-gap: 0px;
+}
+.box2 {
+  background-size: contain;
+  height: 400px;
+  width: 325px;
+  background-color: white;
+  margin-top: 250px;
+  margin-left: 25px;
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 10px;
+}
+.box3 {
+  background-size: cover;
+  height: 400px;
+  width: 325px;
+  background-color: white;
+  margin-top: 250px;
+  margin-left: 25px;
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 10px;
+}
+.box4 {
+  background-size: contain;
+  height: 400px;
+  width: 325px;
+  background-color: white;
+  margin-top: 250px;
+  margin-left: 25px;
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 10px;
+}
+.box5 {
+  background-size: contain;
+  height: 400px;
+  width: 325px;
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 25px;
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 10px;
+}
+.box6 {
+  background-size: contain;
+  height: 400px;
+  width: 325px;
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 25px;
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 10px;
+}
+.box7 {
+  background-size: contain;
+  height: 400px;
+  width: 325px;
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 25px;
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 10px;
+}
+.box8 {
+  background-size: contain;
+  height: 400px;
+  width: 325px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 30px;
+  margin-left: 25px;
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 10px;
+}
+.b1 {
+  height: 130px;
+  width: 120px;
+  background-color: aqua;
+  margin-left: 30px;
+  margin-top: -50px;
+}
+.b4 {
+  height: 130px;
+  width: 140px;
+  background-color: aqua;
+  margin-left: 10px;
+  margin-top: -25px;
+}
+.b3 {
+  height: 130px;
+  width: 120px;
+  background-color: aqua;
+  margin-left: 30px;
+  margin-top: -25px;
+}
+.b2 {
+  height: 130px;
+  width: 140px;
+  background-color: aqua;
+  margin-left: 10px;
+  margin-top: -50px;
+}
+.btp {
+  height: 50px;
+  width: 500px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 30px;
+}
+.end {
+  height: 225px;
+  width: 2000px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+.bgimg1 {
+  background-image: url(../images/bg\ img.jpg);
+  height: 700px;
+  width: 1450px;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.p3b {
+  height: 320px;
+  width: 300px;
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  background-image: url(../images/p3.jpg);
+}
+.md {
+  height: 320px;
+  width: 300px;
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  background-image: url(../images/md.jpg);
+}
+.b11 {
+  height: 130px;
+  width: 120px;
+  background-image: url(../images/spho.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 30px;
+  margin-top: -50px;
+}
+.b12 {
+  height: 130px;
+  width: 120px;
+  background-image: url(../images/tab.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 30px;
+  margin-top: -50px;
+}
+.b13 {
+  height: 130px;
+  width: 120px;
+  background-image: url(../images/wach.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 30px;
+  margin-top: -50px;
+}
+.b14 {
+  height: 130px;
+  width: 120px;
+  background-image: url(../images/hp.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 30px;
+  margin-top: -50px;
+}
+.b1 {
+  height: 130px;
+  width: 120px;
+  background-image: url(../images/i4.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 30px;
+  margin-top: -50px;
+}
+.b2 {
+  height: 130px;
+  width: 120px;
+  background-image: url(../images/i1.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 30px;
+  margin-top: -50px;
+}
+.b3 {
+  height: 130px;
+  width: 120px;
+  background-image: url(../images/i2.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 30px;
+  margin-top: -50px;
+}
+.b4 {
+  height: 130px;
+  width: 120px;
+  background-image: url(../images/i3.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 30px;
+  margin-top: -50px;
+}
+.b5 {
+  height: 130px;
+  width: 120px;
+  background-image: url(../images/1.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 30px;
+  margin-top: -50px;
+}
+.b6 {
+  height: 130px;
+  width: 120px;
+  background-image: url(../images/2.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 30px;
+  margin-top: -50px;
+}
+.b7 {
+  height: 130px;
+  width: 120px;
+  background-image: url(../images/3.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 30px;
+  margin-top: -50px;
+}
+.b8 {
+  height: 130px;
+  width: 120px;
+  background-image: url(../images/4.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 30px;
+  margin-top: -50px;
+}
+.bx6 {
+  height: 320px;
+  width: 300px;
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  background-image: url(../images/a2.jpg);
+  background-position: center;
+}
+.bx7 {
+  height: 320px;
+  width: 300px;
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  background-image: url(../images/a1.jpg);
+  background-position: center;
+}
+.bx8 {
+  height: 320px;
+  width: 300px;
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  background-image: url(../images/a3.jpg);
+  background-position: center;
+}
